@@ -6,7 +6,7 @@
 
 ## Pull Request
 
-- [Pull Request dev to main](https://github.com/arpatterson31/image-lambda/pull/1)
+- [Pull Request dev to main](https://github.com/arpatterson31/image-lambda/pull/2)
 
 ## Screenshots
 

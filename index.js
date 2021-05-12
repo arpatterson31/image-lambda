@@ -12,12 +12,11 @@ exports.handler = async (event, context) => {
   let imgArray = [];
 
   try {
-    let results = await s3.listObjects(params).promise(); // does not have a body, need to map through contents for obj data
+    let results = await s3.listObjects(params).promise(); // does not have a body, need to map through contents for obj metadata
     imgArray = results.Contents.map(item => {
       let metaObj = {
         Name: item.Key,
         Size: item.Size,
-        Type: item.Type
       };
       return metaObj;
     });
@@ -25,7 +24,7 @@ exports.handler = async (event, context) => {
   catch (err) {
     console.log(err);
   }
-  console.log(JSON.stringify(event), JSON.stringify(imgArray));
+  console.log(JSON.stringify(imgArray));
 
   return 's3 bucket trigger this';
 }
