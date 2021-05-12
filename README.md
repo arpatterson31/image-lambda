@@ -12,12 +12,13 @@
 - Screenshot of the console log
 ![Console Log](assets/imagejson.png)
 
-## Links and Resources
-
 - [image.json](./images.json)
+
+## Links and Resources
 
 - [AWS Docs - use an s3 trigger](https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html)
 - [AWS Docs - listObjects method](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListObjects.html#API_ListObjects_ResponseSyntax)
+- [YouTube Video on file upload](https://www.youtube.com/watch?v=Wnbw15Oue1k)
 
 ## Issues I encountered
 

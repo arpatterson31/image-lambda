@@ -12,7 +12,7 @@ exports.handler = async (event, context) => {
   let imgArray = [];
 
   try {
-    let results = await s3.listObjects(params).promise();
+    let results = await s3.listObjects(params).promise(); // does not have a body, need to map through contents for obj data
     imgArray = results.Contents.map(item => {
       let metaObj = {
         Name: item.Key,
