@@ -1,44 +1,47 @@
-2021-05-12T00:06:10.046Z	da4459fe-f9a3-49a1-9115-b7bca5ce7ad5	INFO	{
-  "Records": [
-      {
-          "eventVersion": "2.1",
-          "eventSource": "aws:s3",
-          "awsRegion": "us-west-2",
-          "eventTime": "2021-05-12T00:06:00.652Z",
-          "eventName": "ObjectCreated:Put",
-          "userIdentity": {
-              "principalId": "A3HUO0CDHAK8F5"
-          },
-          "requestParameters": {
-              "sourceIPAddress": "97.126.27.28"
-          },
-          "responseElements": {
-              "x-amz-request-id": "RZGEX90X8CDG2JAN",
-              "x-amz-id-2": "iMTVnASWzxf7ydVJ4uLUXBqsMKWkQAuqkjBv2G1T5QZVYyfce1YUy1Qwsz3M3w2C5eWs7oOwnalx0GhW9/hcp9/tXAF3g/EB"
-          },
-          "s3": {
-              "s3SchemaVersion": "1.0",
-              "configurationId": "a9f9192e-567f-4a2c-a90c-96bd4c4e73ba",
-              "bucket": {
-                  "name": "lambda-images-lab",
-                  "ownerIdentity": {
-                      "principalId": "A3HUO0CDHAK8F5"
-                  },
-                  "arn": "arn:aws:s3:::lambda-images-lab"
-              },
-              "object": {
-                  "key": "20160313_084459.jpg",
-                  "size": 2950747,
-                  "eTag": "10f5a710920be1459ac793a07fd18369",
-                  "sequencer": "00609B1BEF6F7F89D9"
-              }
-          }
-      }
-  ]
+2021-05-12T04:32:02.048Z	8e2e77e1-95bc-43ab-a353-3d783c1a4f45	INFO	{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-west-2",
+            "eventTime": "2021-05-12T04:31:59.128Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A3HUO0CDHAK8F5"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "97.126.27.28"
+            },
+            "responseElements": {
+                "x-amz-request-id": "SJYM8KTV2XW6CNGM",
+                "x-amz-id-2": "sUAoLirPkIhH2Epvzb4ncRk9AVLavT1is4WH3V4pKJongTQESa+woD/qkRlih/lmfiGMIU5C7UzJy2KHRjmj+qWpgpz4EtmB"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "a9f9192e-567f-4a2c-a90c-96bd4c4e73ba",
+                "bucket": {
+                    "name": "lambda-images-lab",
+                    "ownerIdentity": {
+                        "principalId": "A3HUO0CDHAK8F5"
+                    },
+                    "arn": "arn:aws:s3:::lambda-images-lab"
+                },
+                "object": {
+                    "key": "IMG_20151024_201441.jpg",
+                    "size": 1345634,
+                    "eTag": "f5a7b104f6326023de4dc483db4db234",
+                    "sequencer": "00609B5A40477090B5"
+                }
+            }
+        }
+    ]
 } [{
-  "Name": "20160313_084459.jpg",
-  "Size": 2950747
+    "Name": "IMG_20150912_145646.jpg",
+    "Size": 1256229
 },{
-  "Name": "IMG_20210115_111117_582.jpg",
-  "Size": 119332
+    "Name": "IMG_20151024_201441.jpg",
+    "Size": 1345634
+},{
+    "Name": "IMG_20210115_111117_582.jpg",
+    "Size": 119332
 }]

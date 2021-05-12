@@ -4,6 +4,14 @@
 
 ### Author: Audrey Patterson
 
+## Screenshots
+
+- Log Events Screenshot
+![Log Events](assets/log-events.png)
+
+- Screenshot of the console log
+![Console Log](assets/imagejson.png)
+
 ## Links and Resources
 
 - [image.json](./images.json)
@@ -15,3 +23,4 @@
 
 - Forgot to zip the node modules in with my index.js file because I was brining in aws.S3
 - I kept getting a constant variable error and didn't realize I had `const` my imgArray and then tried to reassign it later...
+- I'm unable to get the `putObject` function working to send the json file back to the s3 bucket

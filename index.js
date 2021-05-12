@@ -29,3 +29,20 @@ exports.handler = async (event, context) => {
 
   return 's3 bucket trigger this';
 }
+
+// const upload = async () => {
+//   const params = {
+//     ACL: 'public-read',
+//     Body: JSON.stringify(imgArray),
+//     ContentType: 'application/json',
+//     Bucket: 'lambda-images-lab',
+//     Key: 'images.json'
+//   };
+
+//   return await new Promise((resolve, reject) => {
+//     s3.putObject(params, (err, results) => {
+//       if (err) reject(err);
+//       else resolve(results);
+//     });
+//   });
+// }
