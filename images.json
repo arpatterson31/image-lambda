@@ -1,0 +1,47 @@
+2021-05-12T04:32:02.048Z	8e2e77e1-95bc-43ab-a353-3d783c1a4f45	INFO	{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-west-2",
+            "eventTime": "2021-05-12T04:31:59.128Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A3HUO0CDHAK8F5"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "97.126.27.28"
+            },
+            "responseElements": {
+                "x-amz-request-id": "SJYM8KTV2XW6CNGM",
+                "x-amz-id-2": "sUAoLirPkIhH2Epvzb4ncRk9AVLavT1is4WH3V4pKJongTQESa+woD/qkRlih/lmfiGMIU5C7UzJy2KHRjmj+qWpgpz4EtmB"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "a9f9192e-567f-4a2c-a90c-96bd4c4e73ba",
+                "bucket": {
+                    "name": "lambda-images-lab",
+                    "ownerIdentity": {
+                        "principalId": "A3HUO0CDHAK8F5"
+                    },
+                    "arn": "arn:aws:s3:::lambda-images-lab"
+                },
+                "object": {
+                    "key": "IMG_20151024_201441.jpg",
+                    "size": 1345634,
+                    "eTag": "f5a7b104f6326023de4dc483db4db234",
+                    "sequencer": "00609B5A40477090B5"
+                }
+            }
+        }
+    ]
+} [{
+    "Name": "IMG_20150912_145646.jpg",
+    "Size": 1256229
+},{
+    "Name": "IMG_20151024_201441.jpg",
+    "Size": 1345634
+},{
+    "Name": "IMG_20210115_111117_582.jpg",
+    "Size": 119332
+}]
